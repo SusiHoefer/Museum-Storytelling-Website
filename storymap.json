@@ -1,0 +1,168 @@
+{
+    "width": 800,                
+    "height": 600,              
+    "calculate_zoom": true,          
+    "storymap": {
+        "language": "en",
+        "map_type": "osm:standard",
+        "map_as_image": false,
+        "slides": [
+            {
+                "type": "overview",      
+                "text": {                
+                    "headline": "The (fictive) theft of Rembrandts Nightwatch",
+                    "text": "A crime solved along places of Rembrandts work and life"  
+                },
+                "media": {               
+                    "url": "img/nightwatch.jpg",       
+                    "caption": "",   
+                    "credit": ""     
+                }
+            },
+            {
+                "location": {            
+                    "lat": 52.35,      
+                    "lon": 4.88       
+                },
+                "text": {                
+                    "headline": "The theft begins",
+                    "text": "At midnight some day in the early 2025 a dark figure snuck into the Reijksmuseum in Amsterdam built in 1876 and opened in 1885. "
+                },
+                "media": {               
+                    "url": "img/eins.jpg",       
+                    "caption": "Dark Figure walks into the Reijksmuseum, Amsterdam",   
+                    "credit": ""     
+                }
+            },
+            {
+                "location": {            
+                    "lat": 52.359998,     
+                    "lon": 4.885219      
+                },
+                "text": {                
+                    "headline": "The empty frame",
+                    "text": "The grand gallery. The frame of the Nightwatch hangs empty. The museum director is in shock. The painting had hung here since 1885, now its gone without a trace it seems."
+                },
+                "media": {               
+                    "url": "img/zwei.jpg",
+                    "caption": "Museo Archeologico di Napoli",   
+                    "credit": ""     
+                }
+            },
+            {
+                "location": {            
+                    "lat": 52.3695,      
+                    "lon": 4.9020      
+                },
+                "text": {                
+                    "headline": "The Investigators headquarter in the Sint Antoniesbreestraat 386",
+                    "text": "Inspector De Groot studies surveillance footage with furrowed brows and dim lamplight a floor above right over the Museum Het Rembrandthuis. What a coincidence!"
+                },
+                "media": {               
+                    "url": "img/drei.jpg",
+                    "caption": "Museo Archeologico di Napoli",   
+                    "credit": ""     
+                }
+            },
+            {
+                "location": {            
+                    "lat": 52.369502,    
+                    "lon": 4.901970       
+                },
+                "text": {                
+                    "headline": "The Black Feather - a hint found at Rembrandts House",
+                    "text": "On the marble floor lies a single black feather – a silent message from the thieves reports the museum director of the Museum Rembrandthuis to the detective working on the case above. The huge building was bough in 1639 by Rembrandt himself where he, his wife Saskia vab Uylenburgh and his son Tius lived together with a maid called Hendrickje Stoffels."
+                },
+                "media": {               
+                    "url": "img/vier.jpg",
+                    "caption": "Museo Archeologico di Napoli",   
+                    "credit": ""     
+                }
+            },{
+                "location": {            
+                    "lat": 52.367092,    
+                    "lon": 4.908195       
+                },
+                "text": {                
+                    "headline": "The Art Historian",
+                    "text": "Professor van Dijk explains the hidden symbols and codes in Rembrandt’s painting at the University of Amsterdam. It is central hub for researching his work today but wasn't build until the painter was in his 30s and even then it did not play a role in archiving his masterpieces."
+                },
+                "media": {               
+                    "url": "img/fuenf.jpg",
+                    "caption": "Museo Archeologico di Napoli",   
+                    "credit": ""     
+                }
+            },{
+                "location": {            
+                    "lat": 52.367092,    
+                    "lon": 4.908195       
+                },
+                "text": {                
+                    "headline": "The Pointing Hand",
+                    "text": "A hand within the painting points to the ground – is it a clue?, asked a restaurator of the Rijksmuseum Restoration Studio, who has been working closely on the famous painting since 2019 when the Project 'Operation Night Watch' started with the aim to document, analyse and conserve the artwork."
+                },
+                "media": {               
+                    "url": "img/sechs.jpg",
+                    "caption": "Museo Archeologico di Napoli",   
+                    "credit": ""     
+                }
+            },{
+                "location": {            
+                    "lat": 52.368708,      
+                    "lon": 4.901273       
+                },
+                "text": {                
+                    "headline": "The Message",
+                    "text": "An anonymous message appears in Rembrandt’s former neighborhood at the corner of Nieuwe Doelenstraat / Sint Antoniesbreestraat: “Follow the light of the canal.” This neighbourhood as a vibrant center for artistic exchange was known for its painters, intellectuals and merchants, even Hendrick van Uylenburgh Rembrandts brother-in-law lived there."
+                },
+                "media": {               
+                    "url": "img/sieben.jpg",
+                    "caption": "Museo Archeologico di Napoli",   
+                    "credit": ""     
+                }
+            },{
+                "location": {            
+                    "lat": 52.368345,     
+                    "lon": 4.9028146       
+                },
+                "text": {                
+                    "headline": "Along the Zwanenburgwal Canal",
+                    "text": "The investigator follows Amsterdam’s misty canals toward a forgotten warehouse. This scenerary is commonly found among Rembrandts scetches, for example in 'View of the Amstel from the Blauwbrug'"
+                },
+                "media": {               
+                    "url": "img/acht.jpg",
+                    "caption": "Museo Archeologico di Napoli",   
+                    "credit": ""     
+                }
+            },{
+                "location": {            
+                    "lat": 52.372920,   
+                    "lon": 4.900315       
+                },
+                "text": {                
+                    "headline": "The Discovery at De Waag",
+                    "text": "De Waag was a former city gate in the 17th Century and later it was used as a public weighhouse as well as a guildhall. Another famous art piece 'The anatomy of Dr. Tulp' was painted there. But today the detectives are here for another reason: to investigate its loose floorboard. Hints suggested the stolen painting, and a notebook full of Rembrandt’s lost sketches to be here. After leaving no stone unturned they discovered what they were looking for: The Nightwatch! "
+                },
+                "media": {               
+                    "url": "img/neun.jpg",
+                    "caption": "Museo Archeologico di Napoli",   
+                    "credit": ""     
+                }
+            },{
+                "location": {            
+                    "lat": 52.359998,    
+                    "lon": 4.885219      
+                },
+                "text": {                
+                    "headline": "The Last Feather",
+                    "text": "The painting is returned to the Rijksmuseum – but another black feather remains.."
+                },
+                "media": {               
+                    "url": "img/zehn.jpg",
+                    "caption": "Museo Archeologico di Napoli",   
+                    "credit": ""     
+                }
+            }                          
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Timeline</title>
+    <meta name="description" content="Digital Storytelling Exercise">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Timeline CSS -->
+    <link title="timeline-styles" rel="stylesheet" 
+    href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <link rel="stylesheet" href="style.css">
+     <!-- Timeline Javascript -->
+     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mytimeline.html">My Timeline</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./mystorymap.html">My StoryMap</a>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container mt-5">
+            <h2>My timeline</h2>
+        </div>
+        <div class="container mt-5">
+            <p>This timeline aims to...</p>
+        </div>
+            <!-- Timeline Embed -->
+            <div id='timeline-embed' style="width: 100%; height: 600px">
+            </div>
+    </main>
+    <footer class="bg-body-tertiary">
+        <div class="container mt-5" id="footer-text">
+            <p>Project by ....</p>
+            <p> Date: ...</p>
+        </div>
+    </footer>
+    <!-- Loading Timeline JSON -->
+    <script type="text/javascript">
+        timeline = new TL.Timeline('timeline-embed', 'timeline.json');
+    </script>
+</body>
+</html>
