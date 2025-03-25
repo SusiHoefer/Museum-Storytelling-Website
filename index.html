@@ -41,9 +41,9 @@
       .top {
         height: 66.66%;
         background-image:url(img/nightwatch2.jpg);
-        background-size:     cover;                      /* <------ */
+        background-size:     cover;                     
         background-repeat:   no-repeat;
-       background-position: center center;  
+       background-position: center center;
       }
   
       .bottom {
@@ -108,10 +108,10 @@
             </div>
           </nav>
     </header> 
-    <div class="main-content">
-    <main>
+   
+    <main> 
         <div class="container sdesc" id="box">
-            
+            <div class="main-content">
             <div class="sdesc"><h2>Discover the painting 'The Nightwatch' by Rembrandt van Rijn</h2>
               <h3>The Night Watch and the Shadow of the Thief</h3>
 
@@ -186,7 +186,8 @@
               <p>
                 The painting returned to the Rijksmuseum, but one question lingered:
                 Was this just the beginning of a greater hunt?
-              </p></div>
+              </p>
+            </div>
         <div class="row">
             <div class="col">
                 <a href="mytimeline.html" class="btn btn-primary btn-lg" target="_blank">My Timeline</a>
@@ -221,14 +222,14 @@
     let finished = 0;
     const checkDone = () => {
       finished++;
-      if (finished === 2) {
+      if (finished === 2) { 
         overlay.style.display = 'none';
         content.style.opacity = 1;
-
-        // ⏳ Zweiter Effekt nach kurzem Delay
+// ⏳ Zweiter Effekt nach kurzem Delay
         setTimeout(() => {
           box.classList.add('visible');
-        }, 500); // Delay optional
+        }, 200); // Delay optional
+       
       }
     };
 
