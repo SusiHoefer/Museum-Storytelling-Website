@@ -208,36 +208,51 @@
    
 </body>
 <script>
- window.addEventListener('DOMContentLoaded', () => {
-  const top = document.querySelector('.top');
-  const bottom = document.querySelector('.bottom');
-  const overlay = document.querySelector('.overlay');
-  const content = document.querySelector('.main-content');
-  const box = document.getElementById('box');
-
-  overlay.addEventListener('click', () => {
-    top.classList.add('fade-up');
-    bottom.classList.add('fade-down');
-
-    let finished = 0;
-    const checkDone = () => {
-      finished++;
-      if (finished === 2) { 
-        overlay.style.display = 'none';
-        content.style.opacity = 1;
-// ⏳ Zweiter Effekt nach kurzem Delay
-        setTimeout(() => {
-          box.classList.add('visible');
-        }, 200); // Delay optional
-       
-      }
-    };
-
-    top.addEventListener('animationend', checkDone, { once: true });
-    bottom.addEventListener('animationend', checkDone, { once: true });
-  });
-});
-</script>
+  window.addEventListener('DOMContentLoaded', () => {
+   const top = document.querySelector('.top');
+   const bottom = document.querySelector('.bottom');
+   const overlay = document.querySelector('.overlay');
+   const content = document.querySelector('.main-content');
+   const box = document.getElementById('box');
+ 
+   const hasVisited = localStorage.getItem('hasVisited');
+ 
+   if (hasVisited) {
+     // Erster Effekt überspringen, aber Box trotzdem anzeigen
+     overlay.style.display = 'none';
+     content.style.opacity = 1;
+ 
+     setTimeout(() => {
+       box.classList.add('visible');
+     }, 200);
+     return;
+   }
+ 
+   overlay.addEventListener('click', () => {
+     top.classList.add('fade-up');
+     bottom.classList.add('fade-down');
+ 
+     let finished = 0;
+     const checkDone = () => {
+       finished++;
+       if (finished === 2) { 
+         overlay.style.display = 'none';
+         content.style.opacity = 1;
+ 
+         setTimeout(() => {
+           box.classList.add('visible');
+         }, 200);
+ 
+         localStorage.setItem('hasVisited', 'true');
+       }
+     };
+ 
+     top.addEventListener('animationend', checkDone, { once: true });
+     bottom.addEventListener('animationend', checkDone, { once: true });
+   });
+ });
+ </script>
+ 
 
 
 </html>
