@@ -62,6 +62,71 @@
         window.onresize = function(event) {
             storymap.updateDisplay();
         }
+
+    
+
+
+
     </script>
+    <!--<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Warte, bis alle Marker gerendert sind (z. B. per setInterval)
+  const intervalId = setInterval(() => {
+    const markers = document.querySelectorAll(
+      'div.leaflet-marker-icon.vco-mapmarker-icon.vco-icon-image'
+    );
+
+    if (markers.length > 0) {
+      clearInterval(intervalId);
+
+      markers.forEach((marker, index) => {
+        // Klick-Event an jeden Marker
+        marker.addEventListener('click', (event) => {
+          // Jetzt könnte StoryMap intern den "vco-mapmarker-active" wechseln.
+          // Wir warten kurz, bis StoryMap die Klasse gesetzt hat (evtl. 0 ms Timeout reicht):
+          setTimeout(() => {
+            // Nun neu abfragen, welcher Marker tatsächlich aktiv ist
+            const activeMarker = document.querySelector(
+              'div.leaflet-marker-icon.vco-mapmarker-icon.vco-icon-image.vco-mapmarker-active'
+            );
+            console.log('Neuer aktiver Marker:', activeMarker);
+           
+            // Hier Mouseover/-out am aktiven Marker ergänzen
+            activeMarker.addEventListener('mouseover', function() {
+              // ...
+            });
+            activeMarker.addEventListener('mouseout', function() {
+              // ...
+            });
+          }, 0);
+        });
+
+      
+      });
+    }
+  }, 500);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>-->
 </body>
 </html>

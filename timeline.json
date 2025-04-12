@@ -1,100 +1,364 @@
 {
-    "title": {
-        "media": {
-          "url": "",
-          "caption": "",
-          "credit": ""
-        },
-        "text": {
-          "headline": "History of the Doryphoros",
-          "text": ""
-        }
+  "title": {
+    "media": {
+      "url": "",
+      "caption": "",
+      "credit": ""
     },
-    "scale": "human",
-    "events": [
-      {
-        "media": {
-          "url": "img/Wikipedia1.jpg",
-          "caption": "Statue of the Doryphoros",
-          "credit": "PAOLO VILLA VERONA ITALY",
-          "thumbnail": "",
-          "alt": ""
-        },
-        "start_date": {
-            "year": "-440",
-            "month": "",
-            "day": "",
-            "display_date": "ca. 440 BCE"
-        },
-        "end_date": {
-            "year": "",
-            "month": "",
-            "day": "",
-            "display_date": ""
-        },
-        "group": {
-            "name": "statue"
-        },
-        "background": {
-            "url": "",
-            "alt": "",
-            "color": ""
-        },
-        "text": {
-          "headline": "Creation of the Doryphoros",
-          "text": "The renowned Greek sculptor Polykleitos designed a sculptural work as a demonstration of his written treatise, entitled the Κανών (or 'Canon'), translated as 'measure' or 'rule'), exemplifying what he considered to be the perfectly harmonious and balanced proportions of the human body in the sculpted form."
-        }
+    "text": {
+      "headline": "Rembrandt's Life Journey",
+      "text": "An English-language overview of Rembrandt's most significant life stages, based on verifiable scholarly research."
+    }
+  },
+  "scale": "human",
+  "events": [
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
       },
-      {
-        "media": {
-          "url": "https://commons.wikimedia.org/wiki/File:Galenus.jpg#/media/File:Galenus.jpg",
-          "caption": "Galen",
-          "credit": "Unknown author, Public domain, via Wikimedia Commons",
-          "thumbnail": "",
-          "alt": ""
-        },
-        "start_date": {
-            "year": "200",
-            "month": "",
-            "day": "",
-            "display_date": "2nd century CE"
-        },
-        "end_date": {
-            "year": "",
-            "month": "",
-            "day": "",
-            "display_date": ""
-        },
-        "group": {
-            "name": "witnesses"
-        },
-        "background": {
-            "url": "",
-            "alt": "",
-            "color": ""
-        },
-        "text": {
-          "headline": "Galen writes about the Doryphoros",
-          "text": "Chrysippos holds beauty to consist not in the commensurability or 'symmetria' [ie proportions] of the constituent elements [of the body], but in the commensurability of the parts, such as that of finger to finger, and of all the fingers to the palm and wrist, and of those to the forearm, and of the forearm to the upper arm, and in fact, of everything to everything else, just as it is written in the Canon of Polyclitus. For having taught us in that work all the proportions of the body, Polyclitus supported his treatise with a work: he made a statue according to the tenets of his treatise, and called the statue, like the work, the 'Canon'."
-        }
+      "start_date": {
+        "year": "1606",
+        "month": "7",
+        "day": "15",
+        "display_date": "July 15, 1606 (Baptism Date)"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 1"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "1. Birth in Leiden (1606)",
+        "text": "Rembrandt Harmenszoon van Rijn was baptized on July 15, 1606, in Leiden, in the Dutch Republic (modern-day Netherlands). His father, Harmen Gerritszoon van Rijn, worked as a miller, and his mother, Neeltgen Willemsdr. van Zuytbrouck, came from a family of modest means. Although some sources propose 1607 as his birth year, 1606 is most widely accepted. <br/><br/><em>Sources: <strong>Rembrandt House Museum</strong>; Bruyn, J., et al. (1982–2014). <strong>A Corpus of Rembrandt Paintings</strong> (Rembrandt Research Project).</em>"
       }
-    ],
-    "eras": [ 
-        {
-        "start_date": {
-          "month": "",
-          "day": "",
-          "year": "-510"
-        },
-        "end_date": {
-            "month": "",
-            "day": "",
-            "year": "-323"
-        },
-        "text": {
-            "headline": "Classical Period",
-            "text": ""
-          }
-        }
-    ]
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
+      },
+      "start_date": {
+        "year": "1620",
+        "month": "",
+        "day": "",
+        "display_date": "Early 1620s"
+      },
+      "end_date": {
+        "year": "1624",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 2"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "2. Early Education in Leiden",
+        "text": "Rembrandt attended a Latin School in Leiden, demonstrating early promise. Around 1620, he briefly enrolled at Leiden University, but left to pursue painting. He likely began his formal artistic studies under Jacob van Swanenburgh in Leiden before seeking further training elsewhere. <br/><br/><em>Sources: <strong>Rembrandt Research Project</strong>; Van de Wetering, E. (2016). <strong>Rembrandt: The Complete Paintings</strong>. Taschen.</em>"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
+      },
+      "start_date": {
+        "year": "1624",
+        "month": "",
+        "day": "",
+        "display_date": "c. 1624–1625"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 3"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "3. Brief Apprenticeship with Pieter Lastman in Amsterdam",
+        "text": "To deepen his understanding of composition and dramatic storytelling, Rembrandt spent several months under the tutelage of Pieter Lastman in Amsterdam. Lastman, known for his history paintings, influenced Rembrandt’s mastery of vivid biblical and mythological scenes. <br/><br/><em>Sources: Van de Wetering, E. (Ed.). (2005). <strong>Rembrandt: The Painter at Work</strong>. University of California Press.</em>"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
+      },
+      "start_date": {
+        "year": "1625",
+        "month": "",
+        "day": "",
+        "display_date": "1625–1631"
+      },
+      "end_date": {
+        "year": "1631",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 4"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "4. Return to Leiden – First Studio",
+        "text": "Rembrandt returned to Leiden, where he opened a small studio, sometimes shared with fellow artist Jan Lievens. During these years, he experimented with portraiture and dramatic light effects, earning him growing local acclaim. <br/><br/><em>Sources: <strong>A Corpus of Rembrandt Paintings</strong>; Rembrandt House Museum.</em>"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
+      },
+      "start_date": {
+        "year": "1631",
+        "month": "",
+        "day": "",
+        "display_date": "Around 1631"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 5"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "5. Move to Amsterdam – Rise to Prominence",
+        "text": "Rembrandt's reputation and client base expanded rapidly, leading him to settle in Amsterdam around 1631. His collaboration with the art dealer Hendrick van Uylenburgh exposed him to influential patrons, helping him secure prestigious portrait commissions. <br/><br/><em>Sources: Schwartz, G. (1985). <strong>Rembrandt: His Life, His Work, His Time</strong>. Harry N. Abrams.</em>"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
+      },
+      "start_date": {
+        "year": "1634",
+        "month": "6",
+        "day": "22",
+        "display_date": "June 22, 1634"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 6"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "6. Marriage to Saskia van Uylenburgh",
+        "text": "On June 22, 1634, Rembrandt married Saskia van Uylenburgh, a cousin of his dealer. The union elevated Rembrandt’s social position and introduced him to higher social circles. Their relationship inspired several intimate portraits of Saskia. <br/><br/><em>Sources: <strong>Rembrandt House Museum</strong>; Van de Wetering, E. (2016). <strong>Rembrandt: The Complete Paintings</strong>. Taschen.</em>"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
+      },
+      "start_date": {
+        "year": "1639",
+        "month": "",
+        "day": "",
+        "display_date": "1639"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 7"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "7. The House on Jodenbreestraat",
+        "text": "In 1639, Rembrandt purchased a grand house on Jodenbreestraat in Amsterdam (now the Rembrandt House Museum). This served as both his residence and workshop, where he trained numerous pupils and collected artworks from various masters. <br/><br/><em>Sources: <strong>Rembrandt House Museum</strong>; <strong>A Corpus of Rembrandt Paintings</strong>.</em>"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
+      },
+      "start_date": {
+        "year": "1642",
+        "month": "",
+        "day": "",
+        "display_date": "1642"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 8"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "8. “The Night Watch” and Personal Tragedy",
+        "text": "In 1642, Rembrandt completed one of his most celebrated works, “The Night Watch,” demonstrating his innovative approach to group portraiture. The same year, he suffered a profound loss when Saskia passed away after prolonged illness. <br/><br/><em>Sources: Van de Wetering, E. (2013). <strong>A Corpus of Rembrandt Paintings, Vol. VI</strong>. Springer.</em>"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
+      },
+      "start_date": {
+        "year": "1656",
+        "month": "",
+        "day": "",
+        "display_date": "1656"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 9"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "9. Decline and Bankruptcy",
+        "text": "A combination of reduced commissions, costly acquisitions, and personal expenses pushed Rembrandt into bankruptcy in 1656. His house, treasured art collection, and other belongings were auctioned off, forcing him to relocate to less expensive lodgings. <br/><br/><em>Sources: Schwartz, G. (1985). <strong>Rembrandt: His Life, His Work, His Time</strong>. Harry N. Abrams.</em>"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": "",
+        "thumbnail": "",
+        "alt": ""
+      },
+      "start_date": {
+        "year": "1669",
+        "month": "10",
+        "day": "4",
+        "display_date": "October 4, 1669"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": "",
+        "display_date": ""
+      },
+      "group": {
+        "name": "Station 10"
+      },
+      "background": {
+        "url": "",
+        "alt": "",
+        "color": ""
+      },
+      "text": {
+        "headline": "10. Final Years and Death in Amsterdam",
+        "text": "Rembrandt continued painting despite fewer commissions. He explored increasingly introspective themes, especially in biblical and portrait works. On October 4, 1669, he died in Amsterdam and was buried in an unmarked grave in the Westerkerk. Though his final years were marked by financial hardship, Rembrandt’s artistic legacy endured, influencing generations to come. <br/><br/><em>Sources: Bruyn, J., et al. (1982–2014). <strong>A Corpus of Rembrandt Paintings</strong>; Rembrandt House Museum.</em>"
+      }
+    }
+  ],
+  "eras": [
+    {
+      "start_date": {
+        "year": "1606",
+        "month": "",
+        "day": ""
+      },
+      "end_date": {
+        "year": "1669",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Rembrandt’s Lifetime (1606–1669)",
+        "text": "From his birth in Leiden to his death in Amsterdam."
+      }
+    }
+  ]
 }

@@ -1,10 +1,11 @@
 {
     "width": 800,                
     "height": 600,              
-    "calculate_zoom": true,          
+    "calculate_zoom": true,
+    "font_css": "Helvetica",          
     "storymap": {
         "language": "en",
-        "map_type": "osm:standard",
+        "map_type": "stamen:watercolor",
         "map_as_image": false,
         "slides": [
             {
